@@ -7,3 +7,29 @@
     font-family: "Roboto";
 }
 
+body {
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: #819331;
+    color: #fff;
+}
+ß
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;;
+}
+
+.navbar-links ul {
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar-links a {
+    color: #fff;
+}
