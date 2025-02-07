@@ -9,6 +9,7 @@
 
 body {
     height: 100vh;
+    width: 100vw;
 }
 
 .header {
@@ -17,12 +18,17 @@ body {
     background-color: #819331;
     color: #fff;
 }
-ß
+
 .navbar {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 1rem;;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.logo {
+    font-size: 24px;
 }
 
 .navbar-links ul {
@@ -32,4 +38,126 @@ body {
 
 .navbar-links a {
     color: #fff;
+    font-size: 18px;;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.hero-text h3 {
+    font-size: 48px;
+    margin-bottom: 1rem;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin-bottom: 1rem;
+}
+
+.hero-text button {
+    font-size: 18px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5%;
+    padding: 0.5rem;
+    color: #819331;
+}
+.hero-image img {
+    height: 300px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.info-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.info-content h2 {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.clubs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 2rem 0;
+    font-size: 18px;
+}
+
+.club {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #819331;
+    color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    height: 400px;
+
+}
+
+.banner p {
+    font-size: 36px;
+    font-style: italic;
+    text-align: center;
+    margin: 2rem;
+}
+
+.sign-up-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    background-color: #819331;
+    color: #fff;
+    max-width: 600px;
+    padding: 2rem;
+    border-radius: 10px;
+    margin: 2rem auto;
+    font-size: 18px;
+}
+
+.sign-up-content-button button{
+    border: none;
+    color: #819331;
+    background-color: #fff;
+    padding: 1rem;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #819331;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
 }
